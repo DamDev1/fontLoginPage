@@ -17,8 +17,8 @@ function validate(){
     }else if(phone == ""){
         alert("Please Phone Number Can't Be Empty");
         return false;
-    }else if(phone.length < 13){
-        alert("Please Your Phone Must Be Less Than 12");
+    }else if(phone.length < 11){
+        alert("Please Your Phone Must be 11");
         return false;
     }else if(massage == ""){
         alert("Please Massage Can't Be Empty");
